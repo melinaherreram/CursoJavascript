@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.titulo-principal {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.titulo-seccion {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.tabla-productos, .tabla-carrito {
+    width: 80%;
+    margin: 0 auto 30px;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tabla-productos th, .tabla-productos td, 
+.tabla-carrito th, .tabla-carrito td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.tabla-productos th, .tabla-carrito th {
+    background-color: #4285f4;
+    color: white;
+}
+
+.input-cantidad {
+    width: 60px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-opcion {
+    background-color: #4285f4;
+    color: white;
+}
+
+.btn-agregar {
+    background-color: #34a853;
+    color: white;
+}
+
+.btn-finalizar {
+    background-color: #fbbc05;
+    color: white;
+    margin-top: 20px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.resumen {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
