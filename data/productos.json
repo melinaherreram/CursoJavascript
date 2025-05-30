@@ -1,0 +1,13 @@
+{
+    "peliculas": [
+      { "nombre": "Avatar", "precio": 8000 },
+      { "nombre": "Cenicienta", "precio": 8000 },
+      { "nombre": "Batman", "precio": 8000 }
+    ],
+    "recitales": [
+      { "nombre": "Gorillaz", "precio": 50000 },
+      { "nombre": "Callejeros", "precio": 50000 },
+      { "nombre": "Coldplay", "precio": 50000 }
+    ]
+  }
+  

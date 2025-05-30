@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tickets Chagal</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <h1 class="titulo-principal">Tickets Chagal - Comprá tus entradas</h1>
+
+  <h2 id="instruccion" class="instruccion">
+    Seleccioná qué tipo de entradas querés comprar:
+  </h2>
+  <button id="btnMostrarCine" class="btn-opcion">PELICULAS</button>
+  <button id="btnMostrarRecital" class="btn-opcion">RECITALES</button>
+
+  <section id="peliculas-section" style="display: none;">
+    <h2 class="titulo-seccion">Películas</h2>
+    <table class="tabla-productos">
+      <thead>
+        <tr>
+          <th>Película</th>
+          <th>Precio</th>
+          <th>Cantidad</th>
+          <th>Acción</th>
+        </tr>
+      </thead>
+      <tbody id="peliculas-body"></tbody>
+    </table>
+  </section>
+
+  <section id="recitales-section" style="display: none;">
+    <h2 class="titulo-seccion">Recitales</h2>
+    <table class="tabla-productos">
+      <thead>
+        <tr>
+          <th>Recital</th>
+          <th>Precio</th>
+          <th>Cantidad</th>
+          <th>Acción</th>
+        </tr>
+      </thead>
+      <tbody id="recitales-body"></tbody>
+    </table>
+  </section>
+
+  <h2 class="titulo-seccion">Carrito de Compras</h2>
+  <section id="carrito-container">
+    <table class="tabla-carrito">
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Precio</th>
+          <th>Cantidad</th>
+          <th>Acción</th>
+        </tr>
+      </thead>
+      <tbody id="carrito-body">
+        <tr><td colspan="4">El carrito está vacío.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <h3 id="resumen" class="resumen"></h3>
+  <button id="btnComprar" class="btn-finalizar" style="display: none;">Comprar</button>
+</body>
+</html>

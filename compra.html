@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finalizar Compra</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="js/compra.js"></script>
+  </head>
+  <body>
+    <h1 class="titulo-principal">Finalizá tu compra</h1>
+
+    <section id="resumenCompra"></section>
+
+    <form id="formCompra" class="formulario-compra">
+      <h2>Datos del comprador</h2>
+
+      <div class="campo-formulario">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" placeholder="Ej: Melina Herrera" required />
+      </div>
+
+      <div class="campo-formulario">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Ej: melina@mail.com" required />
+      </div>
+
+      <div class="campo-formulario">
+        <label for="tarjeta">Número de tarjeta:</label>
+        <input type="number" id="tarjeta" placeholder="Ej: 1234567812345678" required />
+      </div>
+
+      <div class="campo-formulario">
+        <label for="vencimiento">Vencimiento (MMAA):</label>
+        <input type="number" id="vencimiento" placeholder="Ej: 0825" required />
+      </div>
+
+      <div class="campo-formulario">
+        <label for="codigo">Código de seguridad:</label>
+        <input type="number" id="codigo" placeholder="Ej: 123" required />
+      </div>
+
+      <button type="submit" class="btn-finalizar">Confirmar Compra</button>
+    </form>
+  </body>
+</html>
+
