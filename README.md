@@ -14,19 +14,6 @@ Este es el proyecto final para el curso de **JavaScript en Coderhouse**. Simula 
   - [SweetAlert2](https://sweetalert2.github.io/)
   - [ToastifyJS](https://apvarun.github.io/toastify-js/)
 
-## Estructura del proyecto
-CursoJavascript/
-├── css/
-│ └── styles.css
-├── data/
-│ └── productos.json
-├── js/
-│ ├── main.js
-│ └── compra.js
-├── index.html
-├── compra.html
-└── README.md
-
 ## Instrucciones de uso
 
 1. **Elegí el tipo de entrada**  
